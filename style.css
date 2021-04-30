@@ -1,0 +1,24 @@
+h3 {
+    color:#edffa9;
+    margin-right: 5%;
+}
+
+body {
+    background-color: #fddaf0;
+}
+
+button {
+    border:none;
+    margin: 0;
+    height:100%;
+    background-color: #542e71;
+    color: white;
+}
+
+button:hover {
+    color: #edffa9;
+}
+
+.nav-final {
+    background-color: #542e71;
+}
