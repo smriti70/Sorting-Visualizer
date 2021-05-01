@@ -24,6 +24,16 @@ button:hover {
 }
 
 .toggler-color.navbar-toggler {
-    /* color:rgba(255,255,255); */
     border-color: white;
+}
+
+#all-bars {
+    margin:6% 7%;
+}
+
+.bars {
+    width:1%;
+    background-color: #edffa9;
+    display:inline-block;
+    border:1px solid #04009a;
 }
