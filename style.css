@@ -22,3 +22,8 @@ button:hover {
 .nav-final {
     background-color: #542e71;
 }
+
+.toggler-color.navbar-toggler {
+    /* color:rgba(255,255,255); */
+    border-color: white;
+}
