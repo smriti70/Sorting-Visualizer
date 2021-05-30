@@ -33,11 +33,41 @@ button:hover {
 
 .bars {
     width:1%;
-    background-color: #edffa9;
+    background-color: #542e71;
     display:inline-block;
-    border:1px solid #04009a;
+    border:1px solid white;
 }
 
 #speed-scroll {
-    margin:70px;
+    margin:50px;
+    text-align:center;
+}
+
+#speed-scroll input{
+    margin:0 20px 0 20px;
+    margin:auto;
+    display:block;
+}
+
+#speed-scroll h6{
+    color:white;   
+}
+
+#bars-scroll {
+    margin:50px;
+    text-align:center;
+}
+
+#bars-scroll input{
+    margin:0 20px 0 20px;
+    margin:auto;
+    display:block;
+}
+
+#bars-scroll h6{
+    color:white;   
+}
+
+.scroll {
+    margin:0 20px 0 20px;
 }

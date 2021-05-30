@@ -1,7 +1,8 @@
 const newArray = () => {
     let bars = [];
     removeAllChildNodes(document.getElementById('all-bars'));
-    for(let i=0;i<100;++i){
+    let n = document.getElementById("barsNumber").value;
+    for(let i=0;i<n;++i){
         let bar = Math.floor(Math.random()*100 + 1);
         let bardiv = document.createElement("div");
         bardiv.classList.add("bars");

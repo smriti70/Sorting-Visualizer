@@ -29,7 +29,7 @@
                 <li id="selection-sort" class="nav-item">
                     <button>Selection Sort</button>
                 </li>
-                <li class="nav-item">
+                <li id="insertion-sort" class="nav-item">
                     <button>Insertion Sort</button>
                 </li>
                 <li class="nav-item">
@@ -38,9 +38,16 @@
                 <li class="nav-item">
                     <button>Merge Sort</button>
                 </li>
-                <li>
+                <li class="scroll">
                     <span id="speed-scroll">
                        <input id="speed" type="range"  min=20 max=120 step=1 value=60>
+                       <h6>Speed</h6>
+                    </span> 
+                </li>
+                <li class="scroll">
+                    <span id="bars-scroll">
+                       <input id="barsNumber" type="range"  min=4 max=100 step=1 value=100>
+                       <h6>No. Of Bars</h6>
                     </span> 
                 </li>
             </ul>
@@ -57,6 +64,7 @@
     <script src="scripts/main.js"></script>
     <script src="scripts/bubbleSort.js"></script>
     <script src="scripts/selectionSort.js"></script>
+    <script src="scripts/insertionSort.js"></script>
     <script src="scripts/swap.js"></script>
     
     

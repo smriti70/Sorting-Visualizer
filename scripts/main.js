@@ -7,9 +7,13 @@ document.getElementById("new-array").addEventListener("click", () => {
 });
 
 document.getElementById("bubble-sort").addEventListener("click", () => {
-    bars = bubbleSort(bars);
+    bubbleSort(bars);
 });
 
 document.getElementById("selection-sort").addEventListener("click", () => {
-    bars = selectionSort(bars);
+    selectionSort(bars);
+});
+
+document.getElementById("insertion-sort").addEventListener("click", () => {
+    insertionSort(bars);
 });
