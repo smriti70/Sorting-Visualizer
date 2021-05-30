@@ -5,7 +5,7 @@ const bubbleSort = async(inputArr) => {
             let val1 = parseInt(inputArr[j].style.height); 
             let val2 = parseInt(inputArr[j+1].style.height);
             var speed = document.querySelector("#speed");
-            var speedOfSorting = speed.value;
+            var speedOfSorting = Math.abs(speed.value);
             if (val1 > val2) {
                 inputArr[j].style.background="red";
                 inputArr[j+1].style.background="red";

@@ -12,7 +12,7 @@ const selectionSort = async(inputArr) => {
             }
         }
         let speed = document.querySelector("#speed");
-        let speedOfSorting = speed.value;
+        let speedOfSorting = Math.abs(speed.value);
         if (min !== i) {
              // Swapping the elements
             inputArr[i].style.background="red";

@@ -11,7 +11,7 @@ const insertionSort = async(inputArr) => {
         let j = i-1; 
         while ((j > -1) && (currentHeight < parseInt(inputArr[j].style.height))) {
             var speed = document.querySelector("#speed");
-            var speedOfSorting = speed.value;
+            var speedOfSorting = Math.abs(speed.value);
             inputArr[j].style.background="red";
             inputArr[j+1].style.background="red";
             
