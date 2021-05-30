@@ -29,10 +29,11 @@ button:hover {
 
 #all-bars {
     margin:6% 7%;
+    display:flex;
 }
 
 .bars {
-    width:1%;
+    flex-grow:1;
     background-color: #542e71;
     display:inline-block;
     border:1px solid white;
