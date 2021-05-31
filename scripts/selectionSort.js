@@ -1,4 +1,5 @@
 const selectionSort = async(inputArr) => { 
+    disableButtons();
     const n = inputArr.length;
         
     for(let i = 0; i < n; i++) {
@@ -24,4 +25,5 @@ const selectionSort = async(inputArr) => {
             inputArr[min].style.background="green";    
         }
     }
+    enableButtons();
 }

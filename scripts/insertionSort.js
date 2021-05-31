@@ -1,4 +1,5 @@
 const insertionSort = async(inputArr) => {
+    disableButtons();
     const n = inputArr.length;
     for(let i=0;i<n;++i){
         console.log(inputArr[i].style.height);
@@ -24,8 +25,5 @@ const insertionSort = async(inputArr) => {
         }
         inputArr[j+1].style.height = current;
     }
-
-    for(let i=0;i<n;++i){
-        console.log(inputArr[i].style.height);
-    }
+    enableButtons();
 }

@@ -1,4 +1,5 @@
 const bubbleSort = async(inputArr) => {
+    disableButtons();
     const len = inputArr.length;
     for (let i = 0; i < len; i++) {
         for (let j = 0; j < len-i-1; j++) {
@@ -18,4 +19,5 @@ const bubbleSort = async(inputArr) => {
             }
         }
     }
+    enableButtons();
 }
