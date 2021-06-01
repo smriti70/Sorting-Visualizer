@@ -17,3 +17,7 @@ document.getElementById("selection-sort").addEventListener("click", () => {
 document.getElementById("insertion-sort").addEventListener("click", () => {
     insertionSort(bars);
 });
+
+document.getElementById("quick-sort").addEventListener("click", () => {
+    quickSort(bars,0,bars.length-1);
+});

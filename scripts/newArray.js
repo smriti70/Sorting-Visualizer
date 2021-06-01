@@ -1,6 +1,5 @@
 const newArray = () => {
     let bars = [];
-    enableButtons();
     removeAllChildNodes(document.getElementById('all-bars'));
     let n = document.getElementById("barsNumber").value;
     for(let i=0;i<n;++i){
