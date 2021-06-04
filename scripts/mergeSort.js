@@ -1,8 +1,21 @@
-const mergeSort = async (start, end) => {
+const mergeSort = async () => {
+   disableButtons();
+   itmd = [];
+    for (let i = 0; i < bars.length; i++) {
+        const bardiv = document.createElement("div");
+        bardiv.style.height = `${0}px`
+        bardiv.classList.add("bars");
+        itmd.push(bardiv)
+    }
+    await mergeSortFunc(0,bars.length-1);
+    enableButtons();
+}
+
+const mergeSortFunc = async (start, end) => {
    if (start < end) {
       let mid = parseInt((start + end) >> 1)
-      await mergeSort(start, mid)
-      await mergeSort(mid + 1, end)
+      await mergeSortFunc(start, mid)
+      await mergeSortFunc(mid + 1, end)
       await mergeArray(start, end)
    }
 }
